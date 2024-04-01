@@ -26,3 +26,12 @@ ACTIONS & REDUCERS:
 /src/state/action-creators -> initiates action 
 /src/state/reducers -> function which changes the state. A react reducer is a pure function which takes an action and the previous state of the application and returns the new state. 
 we will understand how a application gets access to redux Store.
+
+----------------------------------------------------------------------------------
+
+#75 - Creating a Redux Store:
+we can have more than one reducers. we have to combine all reducers and export it as a single reducer function. 
+reducer takes state and action and performs it.
+
+----------------------------------------------------------------------------------
+
