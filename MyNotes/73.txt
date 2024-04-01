@@ -36,3 +36,7 @@ reducer takes state and action and performs it.
 ----------------------------------------------------------------------------------
 
 #76 - Accessing State using useSelector() in Redux:
+
+----------------------------------------------------------------------------------
+
+#77 - Updating state from a different component using useDispatch() in Redux:
