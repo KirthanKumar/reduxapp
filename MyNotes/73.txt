@@ -1,0 +1,23 @@
+#73 - Introduction to Redux:
+For solving prop drilling problem we used context API, but there is Redux library which helps in managing state  like context API. So Redux is a external libraray solution for managing state.
+Here we will create a Redux store will contains all states of our application, and this data can be requested from redux store from anywhere in our application when needed.
+
+WHY REDUX?
+* When a javascript application grows big, it becomes difficult for the user to manage its states.
+* Redux solves this problem by managing application's state with a single global object calles Store.
+* Makes Testing very easy.
+* Consistency throughtout the application.
+
+ACTIONS & REDUCERS:
+* An action is a plain object that describes the intention to cause change.
+* A reducer is a function that determines changes to an application's state. return the new state and tell the store how to do.
+* It uses the action it receives to determine this changes.
+
+        action ----> reducer ----> store
+          ^                         |
+          |                         |
+          |--------- View ----------|
+
+----------------------------------------------------------------------------------
+
+#74 - Setting up a react application for redux:
