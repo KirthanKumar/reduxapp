@@ -21,3 +21,8 @@ ACTIONS & REDUCERS:
 ----------------------------------------------------------------------------------
 
 #74 - Setting up a react application for redux:
+> npm i redux react-redux redux-thunk
+
+/src/state/action-creators -> initiates action 
+/src/state/reducers -> function which changes the state. A react reducer is a pure function which takes an action and the previous state of the application and returns the new state. 
+we will understand how a application gets access to redux Store.
